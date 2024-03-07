@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <meta charset="UTF-8">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Anta&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+     
+
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- <link rel="stylesheet" href="phone.css" /> -->
+     <link rel="stylesheet" media="screen and (max-width: 570px)" href="5phone.css">
+     <link rel="stylesheet" href="phone.css">
+     <title>Simple Langing Page</title>
+     <style type="text/css">
+          *{padding: 0; margin: 0; box-sizing: border-box; }
+        html{background-color: black;}
+          header
+         {
+          width: 100%;
+          height: 100vh;
+          background:linear-gradient(rgba(31, 8, 8, 0.8) , rgba(0,0,0,0.2)),
+           url(./img/nbg.jpg);
+          background-size: cover;
+          font-family: sans-serif;
+         }
+         nav
+         {
+          width: 100%;
+          height: 100px;
+          color: white;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+         }
+         .logo
+         {
+          font-size: 20px;
+          letter-spacing: 2px;
+          padding: 0px 20px;
+         }
+         .menu a{
+          text-decoration: none;
+          color: white;
+          font-size: 30px;
+          padding: 10px 20px;
+          position: relative;
+         }
+         .menu a:before{
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 0%;
+          height: 100%;
+ 
+          border-bottom: 2px solid indianred;
+          transition: 0.4s linear;
+         }
+         .menu a:hover::before{
+          width: 90%;
+         }
+         .register a{
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          padding: 5px 5px;
+          background-color: indianred;
+          border-radius: 8px;
+          transition: 0.4s;
+          
+         }
+         .register a:hover
+         {
+          background: transparent;
+          border: 1px solid indianred;
+         }
+         .h-txt{
+          max-width: 650px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50% , -50%);
+          text-align: center;
+          color: navajowhite;
+         }
+         .h-txt span{
+          letter-spacing: 5px;
+         }
+         .h-txt h1{
+          font-size: 3.5em;
+         }
+         .h-txt a{
+          text-decoration: none;
+          background: indianred;
+          color: white;
+          padding: 10px 20px;
+          letter-spacing: 5px;
+          transition: 0.4s;
+         }
+         .h-txt a:hover
+         {
+          background: transparent;
+          border: 1px solid indianred;
+         }
+         footer{
+          background: black;
+          color: white;
+          text-align: center;
+          height: 50px;
+          font-weight: 700;
+          font-size: 10px;
+          height: 30px;
+          align-self: unset;
+          margin-top: 10px;
+         }
+         #au
+         {
+          font-size: 20px;
+          margin: 5%;
+          margin-top: 30%;
+          margin-right: 70%;
+          
+          
+         }
+         .container {
+          border: 2px solid rgba(0, 0, 0, 0.5);; /* Border properties */
+          padding: 10px; /* Add some padding for space */
+          margin-top: 20%;
+          padding-top: -20px;
+/* Set width as per your design */
+          align-items: center;
+          text-align: top;
+          
+     }
+
+      
+.icons{
+     display: flex;
+     font-size: 3rem;
+     margin-top:0;
+     line-height: 0;
+     align-items: flex-end;
+     display: flex;
+     gap: 1px;
+     justify-content: center;
+     
+ }
+ 
+ .icons a { margin-right:75px; }
+ 
+ .icons :hover{
+     transform: scale(1.5);
+ }
+ 
+
+     </style>
+</head>
+<body>
+     <header >
+          <nav>
+               <div id="plogo" class="logo">
+                    CLEAN-X
+               </div>
+               <div class="menu">
+                    <div class="pmenu">
+                         <a id="test" id="ftest" href="#">Home</a>
+                         <a id="test" id="ftest" href="#">Our Services</a>
+                         <a id="test" id="ftest" href="#">Offers</a>
+                         <a id="test" id="ftest" href="#">Locations</a>
+                         <a id="test" id="ftest" href="#">Contact</a>
+                    </div>
+                   
+               </div>
+
+               <div class="register">
+                    <a id="rbtn" href="#">Sign Up</a>
+               </div>
+          </nav>
+          <section class="h-txt">
+
+               <span id="ph1" style="color: rgb(221, 177, 207);">Well Come to</span>
+               <h1 style="color: rgb(238, 148, 210);" id="ph1">Alpha Car Wash Service</h1>
+               <br>
+               
+               <a style="margin-top: 20px;"  id="bbtn" href="#">Become Cleaner</a>
+               <br/>
+               <br/>
+               <a style="margin-top: 20px;" id="bbtn"  href="#">I am Customer</a>
+               
+               <!-- <a style="margin-top: 20px;" id="bbtn" href="#">Client</a> -->
+          <section>
+               <div class="container">
+                    <h1 style="margin-top: 10px;" style="text-align: start;" style="font-family:cursive;" id="au">About Us</h1>
+                    <p class="paragraph">
+                         Welcome again to Alpha, where we ensure your vehicle shines inside and out. Our eco-friendly products and skilled team deliver showroom-quality results. From compact cars to luxury SUVs, we handle it all with care. Experience friendly service and attention to detail every visit. Trust us to keep your ride sparkling clean and turning heads. Join us for unparalleled car washing excellence today!
+                    </p>
+               </div>
+          </section>
+              
+              
+         
+          </section>
+          
+     </header>
+
+     
+
+     <footer>
+          <div class="icons">
+               <ul>
+                 <a style="color: #0ac623;"href="#"><i class="fa-brands fa-spotify"></i></a> 
+                 <a style="color: #595b60b5;"href="#"><i class="fa-brands fa-apple"></i></a>
+                 <a style="color: #ef4f0bf3;"href="#"><i class="fa-brands fa-soundcloud"></i></a>
+                 <a style="color: floralwhite;"href="#"><i class="fa-brands fa-deezer"></i></a>
+               </ul>
+               </div> 
+               <div class="p1">
+               <pre> HP Washing                                                        &copy;2024 HP WASHING PVT LTD                                            PRIVACY AND COOKIE POLICY</pre>
+               </div>
+          <p><br>All rights reserved ! <br><br></p>
+
+     </footer>
+</body>
+</html>

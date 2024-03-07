@@ -1,0 +1,148 @@
+
+     #ph1{
+          font-size: 30px;
+     }
+
+     #test
+     {
+          font-size: 0.9em;
+          margin: -15px;
+     }
+     #plogo
+     {
+          font-size: 0.7em;
+     }
+     #rbtn
+     {
+          font-size: 0.7em;
+          padding: -10px -20px;
+          /* padding: -20px; */
+     }
+     #bbtn
+     {
+          font-size: 0.7em;
+          
+     }
+     .menu
+     {
+          font-size: 20px;
+     }
+     .plogo
+     {
+          font-size: 30px;
+     }
+     .container p
+     {
+         font-size: 12px;
+     }
+     @media screen and (max-width: 1000px)
+     {
+          #ph1{
+               font-size: 20px;
+          }
+     
+          #test
+          {
+               font-size: 0.5em;
+               margin: -15px;
+          }
+          #plogo
+          {
+               margin: -25px;
+               font-size: 0.7em;
+               margin-right: -35px;
+          }
+          #rbtn
+          {
+               font-size: 0.4em;
+               padding: -20px -30px;
+               margin: -20px;
+               margin-left: -30px;
+               /* padding: -20px; */
+          }
+          #bbtn
+          {
+               font-size: 0.4em;
+          }
+     }
+     @media screen and (max-width: 400px)
+     {
+          *{
+               height: 40%;
+          }
+          #ph1{
+               font-size: 10px;
+          }
+     
+          #test
+          {
+               font-size: 0.5em;
+               margin: -20px;
+          }
+          #plogo
+          {
+               margin: -25px;
+               font-size: 0.6em;
+               margin-right: -45px;
+          }
+          #rbtn
+          {
+               font-size: 0.4em;
+               padding: -30px -40px;
+               margin: -30px;
+               margin-left: -30px;
+               margin-right: -5px;
+               /* padding: -20px; */
+          }
+          #bbtn
+          {
+               font-size: 0.4em;
+          }
+          header
+          {
+               width: 400px;
+          }
+          .container {
+               border: 2px solid rgba(0, 0, 0, 0.5); /* Border properties */
+               padding: 10px; /* Add some padding for space */
+               margin-top: 20%;
+               padding-top: -20px;
+               height: 200px;
+               width: 300px; /* Set width as per your design */
+               align-items: center;
+               text-align: top;
+               
+          }
+           .container p
+           {
+               font-size: 7px;
+           }
+           #au{
+               margin-top: 10%;
+           }
+           .border-container {
+               padding: 10px; /* Adjust padding for smaller screens */
+             }
+     }
+     .icons{
+          display: flex;
+          font-size: 3rem;
+          margin-top:0;
+          line-height: 0;
+          align-items: flex-end;
+          display: flex;
+          gap: 1px;
+          justify-content: center;
+          
+      }
+      
+      .icons a { margin-right:75px; }
+      
+      .icons :hover{
+          transform: scale(1.5);
+      }
+      .paragraph {
+          font-family: "Anta", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        }
